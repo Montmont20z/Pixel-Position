@@ -13,6 +13,11 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                "hanken-grotesk":["Hanken Grotesk", "sans-serif"],
+                "inter": ["Inter"],
+            },
+            colors: {
+                "black": "#060606",
             },
         },
     },
